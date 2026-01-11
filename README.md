@@ -27,6 +27,7 @@ Star Schema Applied -
 Fact table linked to dimension tables using 1: relationships*
 Ensures efficient reporting and clear data flow
 
-3. key observations: 
+3. key observations:
+   
 standard rooms have high occupancy but lower revenue per room.
 Most bookings are online, suggesting potential for loyalty programs and targeted marketing.

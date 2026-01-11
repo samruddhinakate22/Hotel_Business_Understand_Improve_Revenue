@@ -11,9 +11,9 @@ Dimension Tables Created :
 Hotel Branch Dimension: HotelBranch_Key, Total_Rooms
 
 Room Dimension: Room_Key, Room_Category
-<br>
+
 Date Dimension: Date_Key, Date, Month, Year, Weekday, Season, Holiday
-<br>
+
 Fact Table Created:
 
 Fact_Booking : created Booking Duration, Room Category, Stay Type (Short / Medium / Long)

@@ -3,7 +3,6 @@
 This project analyzes hotel booking data to understand business performance and identify opportunities to improve revenue.  
 Power BI is used for data cleaning, modeling, and visualization, following a star schema approach.
 
----
 
 ## Data Model Overview
 
@@ -17,7 +16,7 @@ The model follows a **Fact–Dimension** approach where `fact_booking` is the ce
 
 This structure enables efficient slicing and dicing of metrics by customer, date, room category, and hotel branch.
 
----
+
 
 ## Data Modeling Steps
 
@@ -38,7 +37,6 @@ The data model follows a **Star Schema** for better performance and clarity.
 - Ensured single-direction filters from dimensions to fact table  
 - Removed unused and redundant columns  
 
----
 
 ## Key Analysis Use Cases
 
@@ -49,7 +47,7 @@ The data model follows a **Star Schema** for better performance and clarity.
 - **Premium rooms** contribute minimally to both bookings and revenue  
 - **Medium Stay** is the most common stay type; Long Stay bookings are very low  
 
----
+
 
 ## Relationships
 
@@ -57,5 +55,5 @@ The data model follows a **Star Schema** for better performance and clarity.
 - Filters flow from **dimension → fact**  
 - No relationships exist between dimension tables  
 
----
+
 

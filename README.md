@@ -1,4 +1,4 @@
-# Hotel Booking Data Analysis Project
+# Hotel Revenue Analysis 
 
 This project analyzes hotel booking data to understand business performance and identify opportunities to improve revenue.  
 Power BI is used for data cleaning, modeling, and visualization, following a star schema approach.

@@ -1,5 +1,6 @@
 # Hotel_Business_Understand_Improve_Revenue
 Hotel Business – Revenue & Guest Analytics (Milestone 2)
+
 📌 Project Overview
 
 This project extends Milestone 1 by integrating revenue performance, occupancy analysis, booking channel comparison, and guest behavior insights using Power BI.
@@ -32,10 +33,6 @@ The Revenue and Guest Metrics section at the top of the dashboard highlights key
 🔹 Revenue per Available Room (RevPAR)
 
 
-
-Insight:
-A key indicator of hotel profitability and operational efficiency.
-
 📈 Booking Channel Analysis (Direct vs OTA)
 Visuals Used
 
@@ -58,9 +55,9 @@ Booking patterns vary across time periods for each channel.
 
 Pie chart visualizes:
 
-Leisure Guests
+     Leisure Guests
 
-Business Guests
+     Business Guests
 
 Insight:
 Leisure guests form the majority, indicating tourism-driven demand.
@@ -69,19 +66,19 @@ Leisure guests form the majority, indicating tourism-driven demand.
 
 Guests are segmented based on booking behavior into:
 
-First-time Guests
+    First-time Guests
 
-Loyal Guests
+    Loyal Guests
 
-Returning Guests
+    Returning Guests
 
 Segmented further by Stay Type:
 
-Short Stay
+    Short Stay
 
-Medium Stay
+    Medium Stay
 
-Long Stay
+    Long Stay
 
 Insight:
 Returning and loyal guests contribute more consistently to total bookings.
@@ -145,19 +142,6 @@ Booking Channel
 
 These slicers allow users to filter and analyze data from multiple perspectives in real time.
 
-📷 Screenshots Included (Mandatory)
-
-The screenshots folder contains:
-
-Occupancy %, ADR, and RevPAR KPI visuals
-
-Booking source comparison (Direct vs OTA)
-
-Guest analysis visuals
-
-Overall dashboard view with slicers
-
-These screenshots provide a visual summary of insights and dashboard design.
 
 📌 Key Insights & Observations
 

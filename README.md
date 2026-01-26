@@ -1,35 +1,172 @@
 # Hotel_Business_Understand_Improve_Revenue
-AI Driven Revenue Analysis for Hotels
-1. Dataset Description
+Hotel Business – Revenue & Guest Analytics (Milestone 2)
+📌 Project Overview
 
-The dataset contains daily hotel performance data, including bookings, revenue, room occupancy, and guest information. It tracks financial metrics like ADR, RevPAR, total revenue, expenses, and profit, as well as operational details such as check-ins, no-shows, and cancellations. Marketing spend, booking channels, guest type, and seasonality are included to analyze demand patterns and improve revenue management.
+This project extends Milestone 1 by integrating revenue performance, occupancy analysis, booking channel comparison, and guest behavior insights using Power BI.
 
-2. Data Modeling Steps
+The dashboard provides hotel management with a single interactive view to analyze:
 
-Dimension Tables Created :
+Revenue efficiency
 
-Hotel Branch Dimension: HotelBranch_Key, Total_Rooms
+Occupancy performance
 
-Room Dimension: Room_Key, Room_Category
+Booking channel impact
 
-Date Dimension: Date_Key, Date, Month, Year, Weekday, Season, Holiday
+Guest segmentation and behavior
 
-Fact Table Created:
-
-Fact_Booking : created Booking Duration, Room Category, Stay Type (Short / Medium / Long)
+All metrics and insights are implemented using DAX measures and presented through an interactive Power BI dashboard.
 
 
-Calculated Measures in Power BI -
-   Total Bookings = SUM(New_Bookings)
-   Total Revenue = SUM(Revenue)
-   Profit = Total Revenue – Total Costs
+📊 Revenue & Occupancy Metrics (KPI Section)
 
-Star Schema Applied -
+The Revenue and Guest Metrics section at the top of the dashboard highlights key hotel performance indicators:
 
-Fact table linked to dimension tables using 1: relationships*
-Ensures efficient reporting and clear data flow
+🔹 Rooms Available
 
-3. key observations:
-   
-standard rooms have high occupancy but lower revenue per room.
-Most bookings are online, suggesting potential for loyalty programs and targeted marketing.
+🔹 Rooms Sold
+
+🔹 Occupancy %
+
+🔹 Average Daily Rate (ADR)
+
+🔹 Revenue per Available Room (RevPAR)
+
+
+
+Insight:
+A key indicator of hotel profitability and operational efficiency.
+
+📈 Booking Channel Analysis (Direct vs OTA)
+Visuals Used
+
+Donut Chart – Revenue share by booking channel
+
+Column Chart – Total bookings by booking channel
+
+Line Chart – Booking trends by year, quarter, and channel
+
+Insights
+
+OTA channels contribute a higher share of bookings.
+
+Direct bookings often show stronger revenue efficiency.
+
+Booking patterns vary across time periods for each channel.
+
+👥 Guest Analysis & Segmentation
+🔹 Guest Type Distribution
+
+Pie chart visualizes:
+
+Leisure Guests
+
+Business Guests
+
+Insight:
+Leisure guests form the majority, indicating tourism-driven demand.
+
+🔹 Guest Segmentation
+
+Guests are segmented based on booking behavior into:
+
+First-time Guests
+
+Loyal Guests
+
+Returning Guests
+
+Segmented further by Stay Type:
+
+Short Stay
+
+Medium Stay
+
+Long Stay
+
+Insight:
+Returning and loyal guests contribute more consistently to total bookings.
+
+🌍 Guest Demographics & Behavior
+🔹 Bookings by Guest Country
+
+Bar chart displays total bookings from:
+
+USA
+
+UK
+
+Germany
+
+France
+
+Italy
+
+Insight:
+International guests form a significant portion of demand.
+
+🔹 Average Booking Duration by Country
+
+Highlights how long guests stay on average by nationality.
+
+Insight:
+Certain countries show longer average stays, indicating higher revenue potential.
+
+📆 Time-Based Booking Trends
+
+The dashboard analyzes booking trends across:
+
+Monthly
+
+Quarterly
+
+Seasonal (Spring, Summer, Winter)
+
+This helps identify:
+
+Peak booking periods
+
+Seasonal demand variations
+
+Channel-wise performance over time
+
+🎛 Interactive Slicers
+
+The dashboard includes dynamic slicers for:
+
+Date range
+
+Season
+
+Room Category (Economy, Standard, Premium)
+
+Hotel Branch
+
+Booking Channel
+
+These slicers allow users to filter and analyze data from multiple perspectives in real time.
+
+📷 Screenshots Included (Mandatory)
+
+The screenshots folder contains:
+
+Occupancy %, ADR, and RevPAR KPI visuals
+
+Booking source comparison (Direct vs OTA)
+
+Guest analysis visuals
+
+Overall dashboard view with slicers
+
+These screenshots provide a visual summary of insights and dashboard design.
+
+📌 Key Insights & Observations
+
+Full occupancy indicates strong demand during selected periods.
+
+OTA channels drive volume, while Direct bookings improve revenue efficiency.
+
+Leisure travelers dominate guest composition.
+
+Returning and loyal guests contribute significantly to bookings.
+
+Country-wise booking behavior reveals opportunities for targeted marketing.

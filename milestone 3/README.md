@@ -36,21 +36,9 @@ These KPIs provide a quick summary of future demand and booking risk.
 📈 **Visualizations Included in the Report**
 1️. Total Bookings by Month (Actual)
 
-Chart Type: Line Chart
-
-Purpose: Shows historical booking trend
-
-Months Displayed: January, February, March, July
-
 Insight: Identifies seasonal dips and peaks in actual data
 
 2️. Forecasted Bookings by Date
-
-Chart Type: Line Chart
-
-Data: Forecast data only (Forecast_bookings)
-
-Purpose: Visualizes future booking demand
 
 Insight: Shows predicted spike in upcoming months (e.g., August)
 
@@ -58,75 +46,44 @@ Insight: Shows predicted spike in upcoming months (e.g., August)
 
 3️. Forecast vs Average Actual Bookings
 
-Chart Type: Line Chart
-
-Y-axis:
-
-Forecast_bookings
-
-Average of Total_Bookings (not sum)
-
-Purpose: Compares predicted demand against historical average
-
-Why Average: Prevents aggregation mismatch and false spikes
+ Compares predicted demand against historical average
 
 4️. Total Bookings by Season
 
-Chart Type: Bar Chart
-
-Purpose: Analyzes seasonal booking behavior
-
-Insight: Identifies which season contributes most to bookings
+Identifies which season contributes most to bookings
 
 5️. Cancellation Rate (%) by Month
 
-Chart Type: Line Chart
-
-Purpose: Tracks monthly cancellation trends
-
-Insight: Helps identify high-risk months
+ Helps identify high-risk months
 
 6️. Sum of Cancellations by Month
 
-Chart Type: Column Chart
-
-Purpose: Shows volume of cancellations
-
-Insight: Complements cancellation rate analysis
+ Complements cancellation rate analysis
 
 7️. Cancellation Rate (%) by Lead Time Bucket
 
-Chart Type: Area / Line Chart
-
-Lead Time Buckets:
-
-0–7 days
-
-8–14 days
-
-Insight: Longer lead times show higher cancellation probability
+ Longer lead times show higher cancellation probability
 
 🎛 **Filters / Slicers Used**
 
-Season slicer (Spring, Summer, Winter)
+ - Season slicer (Spring, Summer, Winter)
 
-Month slicer
+-  Month slicer
 
-Hotel Branch Key slicer
-
-These allow interactive analysis across different dimensions.
+- Hotel Branch Key slicer
 
 
 ✅ **Conclusion**
 
-Milestone 3 successfully demonstrates:
+Milestone 3 demonstrates:
 
-Proper use of Python-based forecasting
+* Proper use of Python-based forecasting
 
-Clean integration of forecast results into Power BI
+* Clean integration of forecast results into Power BI
 
-Clear separation of actual vs predicted data
+* Clear separation of actual vs predicted data
 
-Insightful analysis of cancellations and seasonality
+* Insightful analysis of cancellations and seasonality
+
 
 The report provides both historical insights and future demand predictions, supporting data-driven decision-making.
